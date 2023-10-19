@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
-  box-sizing: 34px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -220,3 +219,48 @@
   width: 100%;
   height: 100%;
 }
+.credit-container {
+  display: flex;
+}
+.credit-head {
+  margin-left: 24px;
+  width: 596px;
+}
+.credit-para {
+  margin-right: 24px;
+  width: 596px;
+}
+@media (max-width: 425px) {
+  .sr-cen {
+     display: none;
+   }
+   .img-cam {
+   display: none;
+ }
+   .img-bell {
+   display: none;
+ }
+   .side-bar {
+     display: none;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .sr-cen {
+     display: none;
+   } 
+   .side-bar {
+     display: none;
+   }
+   .show-sidebar {
+     display: inline;
+     position: fixed;
+     top: 4.4rem;
+     height: auto;
+   }
+ }
+ @media (max-width: 941px) {
+   .sr-cen input {
+     width: 300px;
+   }
+ }
