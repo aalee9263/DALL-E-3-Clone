@@ -231,7 +231,7 @@
   width: 596px;
 }
 @media (max-width: 425px) {
-  .sr-cen {
+  .cen-list {
      display: none;
    }
    .img-cam {
