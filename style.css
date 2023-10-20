@@ -192,7 +192,6 @@
   box-sizing: border-box;
   width: 596px;
   background-color: blue;
-
   margin: 0 0 0 24px;
   font-size: 38px;
 }
@@ -233,13 +232,7 @@
 @media (max-width: 425px) {
   .cen-list {
      display: none;
-   /* }
-   .img-cam {
-   display: none;
- }
-   .img-bell {
-   display: none;
- }
+/*    
    .side-bar {
      display: none; */
    }
@@ -258,9 +251,8 @@
      top: 4.4rem;
      height: auto; */
    }
- }
+
  @media (max-width: 941px) {
    /* .sr-cen input { */
      /* width: 300px; */
    }
- }
